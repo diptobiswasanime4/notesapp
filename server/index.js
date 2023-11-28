@@ -7,7 +7,7 @@ app.use(express.json());
 const PORT = 3000;
 
 app.get("/", async (req, res) => {
-  res.json({ msg: "Home Page", success: true });
+  res.json({ msg: "Home Page!", success: true });
 });
 
 app.listen(PORT, () => {
